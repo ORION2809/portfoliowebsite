@@ -45,21 +45,21 @@ export default function FloatingDockDemo() {
       icon: (
         <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "mailto:syahra2014@gmail.com?subject=hey%20i%20have%20a%20project%20in%20mind%20",
+      href: "mailto:shreyas.suvarna.2809@gmail.com?subject=hey%20i%20have%20a%20project%20in%20mind%20",
     },
     {
       title: "LinkedIn",
       icon: (
         <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://pk.linkedin.com/in/waqas-ishaque",
+      href: "https://www.linkedin.com/in/shreyas-suvarna-831898315",
     },
     {
       title: "Github",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "https://github.com/waqasIshaque1",
+      href: "https://github.com/ORION2809",
     },
   ];
   return (

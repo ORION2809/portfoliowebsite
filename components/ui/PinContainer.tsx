@@ -36,10 +36,13 @@ export const PinContainer = ({
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      //href={href || "/"}
       onClick={(event) => {
         event.preventDefault();
-        window.open("https://" + href, "_blank");
+        if (href) {
+          // Check if href already has protocol, if not add https://
+          const url = href.startsWith("http://") || href.startsWith("https://") ? href : "https://" + href;
+          window.open(url, "_blank");
+        }
       }}
     >
       <div

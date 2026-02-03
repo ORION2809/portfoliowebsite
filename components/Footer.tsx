@@ -23,13 +23,13 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-        Ready to elevate <span className="text-purple">your</span> digital presence through intelligent data solutions?
+        Ready to build <span className="text-purple">intelligent</span> AI solutions together?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Reach out to me today and let&apos;s discuss how AI and Machine Learning
+          can solve your challenges.
         </p>
-        <a href="mailto:your-email@example.com?subject=Hey%20I%20have%20a%20project%20in%20mind">
+        <a href="mailto:shreyas.suvarna.2809@gmail.com?subject=Hey%20I%20have%20a%20project%20in%20mind">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2025 Your Name
+          Copyright © 2026 Shreyas Suvarna
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">

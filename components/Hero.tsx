@@ -10,17 +10,17 @@ const Hero = () => {
       text: "I",
     },
     {
-      text: "Transform",
+      text: "Build",
     },
     {
-      text: "Ideas",
+      text: "Intelligent",
     },
     {
-      text: "Into",
+      text: "AI",
       className: "text-purple dark:text-purple",
     },
     {
-      text: "Experiences",
+      text: "Solutions",
       className: "text-purple dark:text-purple",
     },
   ];
@@ -65,17 +65,17 @@ const Hero = () => {
             className="rounded-full w-80 h-80 border-2 border-white-100 mb-5"
           /> */}
           <h2 className="uppercase tracking-widest text-3xl text-center text-blue-100 max-w-120">
-          Waqas Ishaque
+          Shreyas Suvarna
           </h2>
           <TypewriterEffect
             className="text-center md:text-5xl lg:text-6xl my-5"
             words={words}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl font-[200]">
-            [Your Professional Title] | [Your Passion or Expertise] | [Your Key Strength or Motto]
+            AI/ML Engineer | Data Science | Building Intelligent Systems
           </p>
 
-          <a href="mailto:[your-email@example.com]?subject=Hey%20I%20have%20a%20project%20in%20mind" target="_blank" className="cursor-pointer">
+          <a href="mailto:shreyas.suvarna.2809@gmail.com?subject=Hey%20I%20have%20a%20project%20in%20mind" target="_blank" className="cursor-pointer">
             <MagicButton
               title="Say HI!"
               icon={<FaLocationArrow />}

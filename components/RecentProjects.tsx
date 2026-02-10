@@ -3,6 +3,7 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/PinContainer";
 import { FaLocationArrow } from "react-icons/fa";
+import { withBasePath } from "@/lib/withBasePath";
 
 
 const RecentProjects = () => {
@@ -24,7 +25,7 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img src={withBasePath("/bg.png")} alt="bgimg" />
                 </div>
                 <img src={img} alt="cover" className="z-10 absolute bottom-0" />
               </div>

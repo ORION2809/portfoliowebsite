@@ -12,6 +12,7 @@ import animationData from "@/data/confetti.json";
 import { BackgroundGradientAnimation } from "./Gradientbg";
 import GridGlobe from "./GridGlobe";
 import LitupButton from "./LitupButton";
+import { withBasePath } from "@/lib/withBasePath";
 import MagicButton from "./MagicButton";
 import { SparklesCore } from "./Sparkles";
 
@@ -81,7 +82,7 @@ export const BentoGridItem = ({
           <div className="w-full h-full absolute">
             {img && (
               <img
-                src={img}
+                src={withBasePath(img)}
                 alt={img}
                 className={cn(imgClassName, "object-cover object-center ")}
               />
@@ -95,7 +96,7 @@ export const BentoGridItem = ({
             {spareImg && (
               <>
                 <img
-                  src={spareImg}
+                  src={withBasePath(spareImg)}
                   alt={spareImg}
                   //   width={220}
                   className="object-cover object-center w-full h-full"

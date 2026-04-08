@@ -13,7 +13,7 @@ export const navItems = [
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
-      img: "/b1.svg",
+      img: "b1.svg",
       spareImg: "",
     },
     {
@@ -43,8 +43,8 @@ export const navItems = [
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "grid.svg",
+      spareImg: "b4.svg",
     },
     {
       id: 5,
@@ -53,8 +53,8 @@ export const navItems = [
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
       titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
+      img: "b5.svg",
+      spareImg: "grid.svg",
     },
     {
       id: 6,
@@ -172,32 +172,32 @@ export const navItems = [
     {
       id: 1,
       name: "OpenAI",
-      img: "/placeholder-logo.svg",
-      nameImg: "/placeholder-name.svg",
+      img: "placeholder-logo.svg",
+      nameImg: "placeholder-name.svg",
     },
     {
       id: 2,
       name: "Anthropic",
-      img: "/placeholder-logo.svg",
-      nameImg: "/placeholder-name.svg",
+      img: "placeholder-logo.svg",
+      nameImg: "placeholder-name.svg",
     },
     {
       id: 3,
       name: "NVIDIA",
-      img: "/placeholder-logo.svg",
-      nameImg: "/placeholder-name.svg",
+      img: "placeholder-logo.svg",
+      nameImg: "placeholder-name.svg",
     },
     {
       id: 4,
       name: "Playwright",
-      img: "/placeholder-logo.svg",
-      nameImg: "/placeholder-name.svg",
+      img: "placeholder-logo.svg",
+      nameImg: "placeholder-name.svg",
     },
     {
       id: 5,
       name: "Docker",
-      img: "/placeholder-logo.svg",
-      nameImg: "/placeholder-name.svg",
+      img: "placeholder-logo.svg",
+      nameImg: "placeholder-name.svg",
     },
   ];
   
@@ -207,45 +207,45 @@ export const navItems = [
       title: "Agentic Systems Architect",
       desc: "Designed Claude Fulcrum — an AI development OS with 26 agents, 122 skills, and 66 commands. Swarm orchestration, quality gates, and shared memory across Claude Code, Codex, and Cursor.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "exp1.svg",
     },
     {
       id: 2,
       title: "Rust CLI & MCP Developer",
       desc: "Built Claw Code — a Rust coding-agent CLI with multi-provider LLM support, plugin-aware hooks, permission management, and interactive REPL. Shipped MCP servers with Docker packaging.",
       className: "md:col-span-2", 
-      thumbnail: "/exp2.svg",
+      thumbnail: "exp2.svg",
     },
     {
       id: 3,
       title: "AI/ML Engineer — Medical & Legal AI",
       desc: "Developed XAI Tachycardia Detection for ECG monitoring (98% VT sensitivity). Fine-tuned InLegalBERT for Indian Legal NER achieving 0.78 F1 across 14 entity types.",
       className: "md:col-span-2",
-      thumbnail: "/exp3.svg",
+      thumbnail: "exp3.svg",
     },
     {
       id: 4,
       title: "Full-Stack AI Product Builder",
       desc: "End-to-end product delivery: Career-Ops (Go + Node.js), AI Onboarding Orchestrator (Express + Sagas), and Agentic Game Builder (Python + Playwright). Every project ships with browser-proof validation.",
       className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      thumbnail: "exp4.svg",
     },
   ];
   
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
+      img: "git.svg",
       href: "https://github.com/ORION2809",
     },
     {
       id: 2,
-      img: "/link.svg",
+      img: "link.svg",
       href: "https://www.linkedin.com/in/shreyas-suvarna-831898315",
     },
     {
       id: 3,
-      img: "/huggingface.svg",
+      img: "huggingface.svg",
       href: "https://huggingface.co/shreyas2809",
     },
   ];

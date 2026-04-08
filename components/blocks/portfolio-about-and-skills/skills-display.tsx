@@ -23,69 +23,68 @@ import { cn } from "@/lib/utils";
 
 // Technical Skills with proficiency levels
 const technicalSkills = [
-  { name: "Python", proficiency: 95 },
-  { name: "Machine Learning", proficiency: 92 },
-  { name: "NLP / Transformers", proficiency: 90 },
-  { name: "Deep Learning (PyTorch)", proficiency: 88 },
-  { name: "BERT Fine-tuning", proficiency: 88 },
-  { name: "Data Engineering", proficiency: 85 },
-  { name: "Time-Series Analysis", proficiency: 85 },
-  { name: "FastAPI / REST APIs", proficiency: 88 },
-  { name: "Version Control (Git)", proficiency: 92 },
-  { name: "Signal Processing", proficiency: 82 },
+  { name: "TypeScript / JavaScript", proficiency: 94 },
+  { name: "Python", proficiency: 92 },
+  { name: "Rust", proficiency: 85 },
+  { name: "Go", proficiency: 82 },
+  { name: "AI Agent Orchestration", proficiency: 95 },
+  { name: "MCP Servers & Protocols", proficiency: 90 },
+  { name: "Playwright E2E Testing", proficiency: 92 },
+  { name: "React / Next.js", proficiency: 88 },
+  { name: "CLI Tool Development", proficiency: 90 },
+  { name: "ML / Deep Learning (PyTorch)", proficiency: 88 },
 ];
 
 // Tools categorized by type
 const tools = [
   {
-    category: "NLP & Transformers",
+    category: "AI & Agents",
     icon: <Code className="h-5 w-5" />,
     items: [
-      { name: "HuggingFace", icon: <Code /> },
-      { name: "BERT/RoBERTa", icon: <Code /> },
-      { name: "spaCy", icon: <Code /> },
-      { name: "Tokenizers", icon: <FileCode /> },
-      { name: "seqeval", icon: <ChartLine /> },
-      { name: "NER/NLU", icon: <Layers /> },
-    ],
-  },
-  {
-    category: "Machine Learning",
-    icon: <ChartLine className="h-5 w-5" />,
-    items: [
+      { name: "OpenAI / Anthropic", icon: <Code /> },
+      { name: "MCP Servers", icon: <Server /> },
+      { name: "RAG Pipelines", icon: <Layers /> },
+      { name: "Multi-Agent Orchestration", icon: <Layers /> },
       { name: "PyTorch", icon: <Code /> },
-      { name: "XGBoost", icon: <Code /> },
-      { name: "scikit-learn", icon: <Code /> },
-      { name: "LSTM/GRU", icon: <Layers /> },
-      { name: "Keras", icon: <Layers /> },
-      { name: "Optuna", icon: <ChartLine /> },
+      { name: "NVIDIA NIM", icon: <ChartLine /> },
     ],
   },
   {
-    category: "Backend & APIs",
+    category: "Runtime & Backend",
     icon: <Server className="h-5 w-5" />,
     items: [
-      { name: "FastAPI", icon: <Server /> },
-      { name: "Flask", icon: <Server /> },
-      { name: "PostgreSQL", icon: <Database /> },
-      { name: "MongoDB", icon: <Database /> },
-      { name: "Redis", icon: <Database /> },
-      { name: "REST API", icon: <Globe /> },
+      { name: "TypeScript / Node", icon: <Code /> },
+      { name: "Rust / Cargo", icon: <Terminal /> },
+      { name: "Python / FastAPI", icon: <Server /> },
+      { name: "Go", icon: <Code /> },
+      { name: "PostgreSQL / Redis", icon: <Database /> },
+      { name: "Zod / Pydantic", icon: <FileCode /> },
     ],
   },
   {
-    category: "DevOps & Tools",
-    icon: <Terminal className="h-5 w-5" />,
+    category: "Frontend & UI",
+    icon: <Globe className="h-5 w-5" />,
     items: [
-      { name: "Git & GitHub", icon: <Github /> },
-      { name: "Docker", icon: <Terminal /> },
-      { name: "AWS", icon: <Cloud /> },
-      { name: "Weights & Biases", icon: <ChartLine /> },
-      { name: "pytest", icon: <Terminal /> },
-      { name: "Linux", icon: <Terminal /> },
+      { name: "React / Next.js", icon: <Code /> },
+      { name: "Tailwind CSS", icon: <Layers /> },
+      { name: "Vite / Turbopack", icon: <Terminal /> },
+      { name: "Three.js / WebGL", icon: <Globe /> },
+      { name: "shadcn/ui", icon: <Layers /> },
+      { name: "Framer Motion", icon: <ChartLine /> },
     ],
   },
-  
+  {
+    category: "Proof & Ops",
+    icon: <Terminal className="h-5 w-5" />,
+    items: [
+      { name: "Playwright E2E", icon: <Terminal /> },
+      { name: "Docker", icon: <Cloud /> },
+      { name: "GitHub Actions", icon: <Github /> },
+      { name: "Prometheus / Grafana", icon: <ChartLine /> },
+      { name: "Chaos Testing", icon: <Terminal /> },
+      { name: "Linux / Shell", icon: <Terminal /> },
+    ],
+  },
 ];
 
 export default function SkillsDisplay() {

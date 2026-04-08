@@ -13,14 +13,11 @@ const Hero = () => {
       text: "Build",
     },
     {
-      text: "Intelligent",
-    },
-    {
-      text: "AI",
+      text: "Agentic",
       className: "text-purple dark:text-purple",
     },
     {
-      text: "Solutions",
+      text: "Systems",
       className: "text-purple dark:text-purple",
     },
   ];
@@ -28,14 +25,6 @@ const Hero = () => {
   return (
     
     <div id="home" className="pb-20 pt-36 relative"> 
-            {/* ------------- start of one click deploy buttons ------------- */}
-                {/* remove this once youve cloned this repo and deployed it */}
-            <div className="absolute top-10 right-0 z-10 flex align-center ">
-              <a className="m-0 p-0 h-0" href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FWaqasIshaque1%2Fportfolio-template&project-name=devfolio-waqas&repository-name=devfolio-waqas-ishaque&redirect-url=https%3A%2F%2Fgithub.com%2FWaqasIshaque1%2Fportfolio-template&demo-title=Devfolio%20by%20WAQAS%20ISHAQUE&demo-description=Minimal%20portfolio%20template%20made%20using%20next%2014%20and%20Acceternity%20UI%20using%20tailwind%20css%20for%20styling&demo-url=https%3A%2F%2Fportfolio-template-six-rust.vercel.app&demo-image=https%3A%2F%2Fportfolio-template-six-rust.vercel.app%2Fscr1.png"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
-              <a className="scale-75 m-0 p-0" href="https://deploy.workers.cloudflare.com/?url=https://github.com/WaqasIshaque1/portfolio-template"><img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare"/></a>
-            </div>
-
-             {/* ------- end of one click deploy buttons ------------ */}
 
       <div>
         <Spotlight
@@ -72,7 +61,7 @@ const Hero = () => {
             words={words}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl font-[200]">
-            AI/ML Engineer | Data Science | Building Intelligent Systems
+            Agentic DevTools · Rust CLIs · MCP Servers · AI Workflows · Playwright Validation
           </p>
 
           <a href="mailto:shreyas.suvarna.2809@gmail.com?subject=Hey%20I%20have%20a%20project%20in%20mind" target="_blank" className="cursor-pointer">

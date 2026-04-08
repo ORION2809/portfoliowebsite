@@ -3,76 +3,76 @@ import { Badge } from "@/components/ui/badge";
 
 const certifications = [
   {
-    title: "Certification 1",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "Career-Ops Platform",
+    issuer: "Agentic Job Automation",
+    description: "Multi-agent system with 30+ MCP tools, Playwright-verified pipelines, and AI resume tailoring.",
+    link: "https://github.com/ORION2809/Career-Ops"
   },
   {
-    title: "Certification 2",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "Prove-It-Mode",
+    issuer: "Chaos Testing Framework",
+    description: "Rust CLI that injects latency, kills processes, and validates recovery under fault conditions.",
+    link: "https://github.com/ORION2809/Prove-It-Mode"
   },
   {
-    title: "Certification 3",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "Claw Code",
+    issuer: "Terminal AI Agent",
+    description: "Rust-based agentic coding assistant with MCP tool orchestration and Playwright validation.",
+    link: "https://github.com/ORION2809/Claw-Code"
   },
   {
-    title: "Certification 4",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "Claude Fulcrum (ECC)",
+    issuer: "Agent Config System",
+    description: "200+ skill modules, agents, hooks, and commands for Claude Code configuration and orchestration.",
+    link: "https://github.com/ORION2809/claude-fulcrum"
   },
   {
-    title: "Certification 5",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "XAI Tachycardia Detection",
+    issuer: "Medical AI Research",
+    description: "Explainable deep learning with Grad-CAM, LIME, and SHAP for ECG arrhythmia classification.",
+    link: "https://github.com/ORION2809/XAI-Tachycardia"
   },
   {
-    title: "Certification 6",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "RLRAG – Retrieval Augmented Gen",
+    issuer: "LLM Pipeline",
+    description: "RL-optimized RAG with reward-ranked retrieval and dynamic context window management.",
+    link: "https://github.com/ORION2809/RLRAG"
   },
   {
-    title: "Certification 7",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "AI Onboarding Copilot",
+    issuer: "Enterprise Tooling",
+    description: "Multi-agent onboarding system that auto-generates README, tests, and architecture docs for new repos.",
+    link: "https://github.com/ORION2809/AI-Onboarding"
   },
   {
-    title: "Certification 8",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "Game Builder Agent",
+    issuer: "Creative AI",
+    description: "TypeScript agent that generates full playable games from natural language prompts with live preview.",
+    link: "https://github.com/ORION2809/Game-Builder"
   },
   {
-    title: "Certification 9",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "Playwright E2E Mastery",
+    issuer: "Testing Expertise",
+    description: "Comprehensive E2E test suites with visual regression, accessibility audits, and CI/CD integration.",
+    link: "https://playwright.dev"
   },
   {
-    title: "Certification 10",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "MCP Protocol Design",
+    issuer: "Agent Communication",
+    description: "Custom MCP servers for tool orchestration, context injection, and multi-agent coordination.",
+    link: "https://modelcontextprotocol.io"
   },
   {
-    title: "Certification 11",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "Rust Systems Programming",
+    issuer: "Performance & Safety",
+    description: "Production CLI tools, async runtimes, and zero-cost abstractions for agentic workloads.",
+    link: "https://www.rust-lang.org"
   },
   {
-    title: "Certification 12",
-    issuer: "Issuer Name",
-    description: "Description of the certification and what it covers.",
-    link: "https://github.com/WaqasIshaque1/portfolio-template"
+    title: "Multi-Runtime Architecture",
+    issuer: "Polyglot Engineering",
+    description: "TypeScript, Python, Rust, and Go services orchestrated under unified agent protocols.",
+    link: "https://github.com/ORION2809"
   }
 ];
 

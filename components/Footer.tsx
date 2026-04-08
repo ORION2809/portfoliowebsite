@@ -23,11 +23,11 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-        Ready to build <span className="text-purple">intelligent</span> AI solutions together?
+        Ready to build <span className="text-purple">agentic</span> systems together?
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how AI and Machine Learning
-          can solve your challenges.
+          Reach out to me today and let&apos;s discuss how AI agents, Rust CLIs,
+          and multi-runtime pipelines can power your next project.
         </p>
         <a href="mailto:shreyas.suvarna.2809@gmail.com?subject=Hey%20I%20have%20a%20project%20in%20mind">
           <MagicButton
